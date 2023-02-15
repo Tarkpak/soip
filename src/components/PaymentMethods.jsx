@@ -23,7 +23,7 @@ export function PaymentMethods() {
           {/* Payment */}
           <div className="">
               <RadioGroup value={selectedPaymentMethod} onChange={setSelectedPaymentMethod}>
-                <RadioGroup.Label className="text-lg font-medium text-gray-900 mb-8"><h3 class="text-xl font-semibold text-orange-500 sm:tracking-tight pb-4"><CurrencyDollarIcon className="h-6 w-6 text-mygreen-500" aria-hidden="true" /> <span>Payment method</span></h3></RadioGroup.Label>
+                <RadioGroup.Label className="text-lg font-medium text-gray-900 mb-8"><h3 className="text-xl font-semibold text-orange-500 sm:tracking-tight pb-4"><CurrencyDollarIcon className="h-6 w-6 text-mygreen-500" aria-hidden="true" /> <span>Payment method</span></h3></RadioGroup.Label>
 
                 <div className="grid gap-y-4 mt-4">
                   {mypaymentMethods.map((mypaymentMethod) => (

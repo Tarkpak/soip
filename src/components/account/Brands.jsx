@@ -34,7 +34,7 @@ export function Brands() {
               <dt className="text-lg">
                 <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-400">
                   <span className="font-medium text-gray-900">
-                    <h3 class="text-xl font-semibold text-orange-500 sm:tracking-tight px-4">
+                    <h3 className="text-xl font-semibold text-orange-500 sm:tracking-tight px-4">
                       <PencilAltIcon className="h-6 w-6 text-mygreen-500" aria-hidden="true" />
                       <span className="ml-2">
                         Brand Monitor ( <span className="text-green-500">90) </span> Left.<span className="text-gray-500 font-base">Click here to submit</span>

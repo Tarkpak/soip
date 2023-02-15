@@ -198,7 +198,7 @@ export function AddPayments() {
                     <dt className="text-lg">
                       <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-400">
                         <span className="font-medium text-gray-900">
-                          <h3 class="text-xl font-semibold text-orange-500 sm:tracking-tight pb-4"><PlusIcon className="h-6 w-6 text-mygreen-500" aria-hidden="true" /> <span>{faq.question}</span></h3>
+                          <h3 className="text-xl font-semibold text-orange-500 sm:tracking-tight pb-4"><PlusIcon className="h-6 w-6 text-mygreen-500" aria-hidden="true" /> <span>{faq.question}</span></h3>
                         </span>
                         <span className="ml-6 flex h-7 items-center">
                           <ChevronDownIcon

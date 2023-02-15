@@ -43,7 +43,7 @@ const pricesdatas = [
 const Circle1 = () => {
   return(
     <>
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-lock-open text-green-500" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-lock-open text-green-500" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <rect x="5" y="11" width="14" height="10" rx="2"></rect>
    <circle cx="12" cy="16" r="1"></circle>
@@ -55,7 +55,7 @@ const Circle1 = () => {
 const Circle2 = () => {
   return(
     <>
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-lock text-orange-500" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-lock text-orange-500" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <rect x="5" y="11" width="14" height="10" rx="2"></rect>
    <circle cx="12" cy="16" r="1"></circle>
@@ -67,7 +67,7 @@ const Circle2 = () => {
 const Circle3 = () => {
   return(
     <>
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-3" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-circle-3" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" strokeLinejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
         <circle cx="12" cy="12" r="9"></circle>
         <path d="M10 9a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1"></path>
@@ -78,7 +78,7 @@ const Circle3 = () => {
 const Award = () => {
   return(
     <>
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-award" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-award" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <circle cx="12" cy="9" r="6"></circle>
    <polyline points="9 14.2 9 21 12 19 15 21 15 14.2" transform="rotate(-30 12 9)"></polyline>
@@ -90,7 +90,7 @@ const Award = () => {
 const Cup = ({className}) => {
   return(
     <>
-<svg xmlns="http://www.w3.org/2000/svg" class={className} width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" class={className} width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <line x1="8" y1="21" x2="16" y2="21"></line>
    <line x1="12" y1="17" x2="12" y2="21"></line>
@@ -105,7 +105,7 @@ const Cup = ({className}) => {
 const Coupons = () => {
   return(
     <>
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-ticket text-purple-400 hover:text-purple-500" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-ticket text-purple-400 hover:text-purple-500" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <line x1="15" y1="5" x2="15" y2="7"></line>
    <line x1="15" y1="11" x2="15" y2="13"></line>
@@ -118,7 +118,7 @@ const Coupons = () => {
 const Whoisprivay= () => {
   return(
     <>
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shield-check text-green-300" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-shield-check text-green-300" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <path d="M9 12l2 2l4 -4"></path>
    <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3"></path>
@@ -129,7 +129,7 @@ const Whoisprivay= () => {
 const Bitcoin = () => {
   return(
     <>
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-currency-bitcoin text-orange-300" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-currency-bitcoin text-orange-300" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" strokeLinejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
         <path d="M6 6h8a3 3 0 0 1 0 6a3 3 0 0 1 0 6h-8"></path>
         <line x1="8" y1="6" x2="8" y2="18"></line>
@@ -273,7 +273,7 @@ const Transferhidden = () =>{
 const AuctionIcons = () => {
   return (
     <>
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-world-www" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-world-www" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <path d="M19.5 7a8.998 8.998 0 0 0 -7.5 -4a8.991 8.991 0 0 0 -7.484 4"></path>
    <path d="M11.5 3a16.989 16.989 0 0 0 -1.826 4"></path>
@@ -292,7 +292,7 @@ const AuctionIcons = () => {
 const CatchIcons = () => {
   return (
     <>
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hand-grab" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-hand-grab" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <path d="M8 11v-3.5a1.5 1.5 0 0 1 3 0v2.5"></path>
    <path d="M11 9.5v-3a1.5 1.5 0 0 1 3 0v3.5"></path>

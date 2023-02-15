@@ -31,7 +31,7 @@ export function Messages() {
       <div className="text-lg">
         <div className="flex w-full items-start justify-between text-left text-gray-400">
           <span className="font-medium text-gray-900">
-            <h3 class="text-xl font-semibold text-orange-500 sm:tracking-tight px-4">
+            <h3 className="text-xl font-semibold text-orange-500 sm:tracking-tight px-4">
               <ChatAltIcon className="h-6 w-6 text-mygreen-500" aria-hidden="true" />
                 <span className="ml-2 space-x-4">
                   <span>Notifications</span>

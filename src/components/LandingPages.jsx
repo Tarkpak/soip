@@ -6,8 +6,8 @@ export function LandingPages() {
           This example requires updating your template:
   
           ```
-          <html class="h-full">
-          <body class="h-full">
+          <html className="h-full">
+          <body className="h-full">
           ```
         */}
         <div className="bg-white min-h-full px-4 py-16 sm:px-6 sm:py-24 md:grid md:place-items-center lg:px-8">

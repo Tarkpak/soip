@@ -285,17 +285,17 @@ export function OrderDetails() {
         </div>
           {/* Print Download Resend */}
           <div className="mt-4 border-t border-gray-200 pt-4">
-            <div class="mt-4 sm:mt-0 sm:ml-16 sm:flex-none sm:space-x-4 grid sm:grid-cols-3  justify-items-end">
+            <div className="mt-4 sm:mt-0 sm:ml-16 sm:flex-none sm:space-x-4 grid sm:grid-cols-3  justify-items-end">
               <div></div>
               <div></div>
               <div className="sm:col-span-3 space-x-4">
-                <button type="button" class="inline-flex items-center justify-center rounded-md border border-transparent bg-mygreen-500 px-4 py-2 text-sm font-medium text-white shadow-sm sm:w-auto">
+                <button type="button" className="inline-flex items-center justify-center rounded-md border border-transparent bg-mygreen-500 px-4 py-2 text-sm font-medium text-white shadow-sm sm:w-auto">
                   Print
                 </button>
-                <button type="button" class="inline-flex items-center justify-center rounded-md border border-transparent bg-myred-500 px-4 py-2 text-sm font-medium text-white shadow-sm sm:w-auto">
+                <button type="button" className="inline-flex items-center justify-center rounded-md border border-transparent bg-myred-500 px-4 py-2 text-sm font-medium text-white shadow-sm sm:w-auto">
                   Download
                 </button>
-                <button type="button" class="inline-flex items-center justify-center hover:underline px-4 py-2 text-sm font-medium sm:w-auto">
+                <button type="button" className="inline-flex items-center justify-center hover:underline px-4 py-2 text-sm font-medium sm:w-auto">
                   Resend Receipt
                 </button>
               </div>

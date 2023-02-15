@@ -174,7 +174,7 @@ export function BlogItem() {
                             fill="#fff"
                             stroke="#fff"
                             stroke-width="4"
-                            stroke-linejoin="round"
+                            strokeLinejoin="round"
                           />
                         </svg>
                         Share
@@ -199,7 +199,7 @@ export function BlogItem() {
                             fill="#fff"
                             stroke="#fff"
                             stroke-width="4"
-                            stroke-linejoin="round"
+                            strokeLinejoin="round"
                           />
                         </svg>
                         Share

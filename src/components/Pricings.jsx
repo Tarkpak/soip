@@ -87,7 +87,7 @@ export function Pricings() {
               onClick={() => setPlan('year')}
             >
               Yearly billing
-              <span class="navshow nav-orange-color nav-r-9p">Save up to 17%</span>
+              <span className="navshow nav-orange-color nav-r-9p">Save up to 17%</span>
             </button>
           </div>
         </div>

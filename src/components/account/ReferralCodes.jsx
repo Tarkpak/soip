@@ -155,7 +155,7 @@ export function ReferralCodes() {
                             fill="#fff"
                             stroke="#fff"
                             stroke-width="4"
-                            stroke-linejoin="round"
+                            strokeLinejoin="round"
                           />
                         </svg>
                         Share on Twitter
@@ -180,7 +180,7 @@ export function ReferralCodes() {
                             fill="#ebebeb"
                             stroke="#ebebeb"
                             stroke-width="4"
-                            stroke-linejoin="round"
+                            strokeLinejoin="round"
                           />
                         </svg>
                         Share on Facebook

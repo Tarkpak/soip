@@ -15,7 +15,7 @@ export function ReferralStatuss() {
   return (
     <div className="mb-12">
       <form method="post" className="items-center lg:mb-8 sm:mt-0 sm:flex-none  grid md:grid-cols-2">
-        <div><h3 class="text-xl font-semibold text-orange-500 sm:tracking-tight px-4"><CalculatorIcon className="h-6 w-6 text-mygreen-500" aria-hidden="true" /> <span>This Month</span></h3></div>
+        <div><h3 className="text-xl font-semibold text-orange-500 sm:tracking-tight px-4"><CalculatorIcon className="h-6 w-6 text-mygreen-500" aria-hidden="true" /> <span>This Month</span></h3></div>
         <div className="sm:space-x-4 justify-self-end">
           <select
             id="expmonth"
@@ -51,7 +51,7 @@ export function ReferralStatuss() {
             <option value="25">2025</option>
           </select>
 
-          <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gray-300 hover:bg-gray-500">Apply</button>
+          <button type="submit" className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gray-300 hover:bg-gray-500">Apply</button>
         </div>
       </form>
       

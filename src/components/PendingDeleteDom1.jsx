@@ -425,7 +425,7 @@ export function PendingDeleteDom() {
                       </div>
                     ))}
                     <div className="pt-3 px-4">
-                      <legend class="mb-2 block text-sm font-semibold text-gray-500">
+                      <legend className="mb-2 block text-sm font-semibold text-gray-500">
                         <SwitchHorizontalIcon
                           className="mr-2 h-4 w-4 text-gray-400"
                           aria-hidden="true"

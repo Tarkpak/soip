@@ -7,8 +7,12 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { WhoisCheck } from '@/components/WhoisCheck'
 import { WhoisCheckResult } from '@/components/WhoisCheckResult'
+import { BulkWhoisCheck } from '@/components/BulkWhoisCheck'
+import { BulkWhoisCheckResult } from '@/components/BulkWhoisCheckResult'
+import { useState } from 'react'
 
 export default function Whois() {
+  const [single, setSingle] = useState(true)
   return (
     <>
       <Head>
@@ -20,10 +24,12 @@ export default function Whois() {
       </Head>
       <BannerTop />
       <Header />
-      <NavTitle><span className="hidden sm:inline">The Best </span>WHOIS Domain Lookup<span className="hidden sm:inline"> Tool</span></NavTitle> 
+      <NavTitle><span className="hidden sm:inline">The Best </span>WHOIS Domain Lookup<span className="hidden sm:inline"> Tool</span></NavTitle>
       <main className="bg-mymain">
-
-        <WhoisCheck />
+        {single
+          ? [<WhoisCheck setSingle={setSingle} />, <WhoisCheckResult />]
+          : [<BulkWhoisCheck setSingle={setSingle} />, <BulkWhoisCheckResult />]
+        }
         <WhoisCheckResult />
       </main>
       <Footer />

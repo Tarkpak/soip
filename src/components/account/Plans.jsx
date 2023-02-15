@@ -51,67 +51,67 @@ export function Plans() {
         This example requires updating your template:
 
         ```
-        <html class="h-full bg-gray-100">
-        <body class="h-full">
+        <html className="h-full bg-gray-100">
+        <body className="h-full">
         ```
       */}
       <div className="h-full">
         <main className="max-w-7xl mx-auto pb-10 lg:px-8">
           {/* Plan */}
-          <div class="">
-            <div class="">
-              <div class="relative">
-                <div class="absolute inset-0 h-1/2 "></div>
-                <div class="relative max-w-7xl mx-auto">
-                  <div class="max-w-lg mx-auto py-6 sm:p-6 sm:rounded-md shadow overflow-hidden lg:max-w-none lg:flex sm:space-x-4">
-                    <div class="flex-1 px-4 sm:px-0">
-                      <h3 class="text-xl font-semibold text-orange-500 sm:tracking-tight"><UserCircleIcon className="h-6 w-6 text-mygreen-500" aria-hidden="true" /> <span>Free Plan</span></h3>
-                      <p class="mt-6 text-base text-gray-500">Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet indis perferendis blanditiis repellendus etur quidem assumenda.</p>
-                      <div class="mt-8">
-                        <div class="flex items-center">
-                          <h4 class="flex-shrink-0 pr-4 bg-white text-base font-semibold text-orange-500">What's included</h4>
-                          <div class="flex-1 border-t-2 border-gray-200"></div>
+          <div className="">
+            <div className="">
+              <div className="relative">
+                <div className="absolute inset-0 h-1/2 "></div>
+                <div className="relative max-w-7xl mx-auto">
+                  <div className="max-w-lg mx-auto py-6 sm:p-6 sm:rounded-md shadow overflow-hidden lg:max-w-none lg:flex sm:space-x-4">
+                    <div className="flex-1 px-4 sm:px-0">
+                      <h3 className="text-xl font-semibold text-orange-500 sm:tracking-tight"><UserCircleIcon className="h-6 w-6 text-mygreen-500" aria-hidden="true" /> <span>Free Plan</span></h3>
+                      <p className="mt-6 text-base text-gray-500">Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet indis perferendis blanditiis repellendus etur quidem assumenda.</p>
+                      <div className="mt-8">
+                        <div className="flex items-center">
+                          <h4 className="flex-shrink-0 pr-4 bg-white text-base font-semibold text-orange-500">What's included</h4>
+                          <div className="flex-1 border-t-2 border-gray-200"></div>
                         </div>
-                        <ul role="list" class="mt-8 space-y-5 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5">
-                          <li class="flex items-start lg:col-span-1">
-                            <div class="flex-shrink-0">
+                        <ul role="list" className="mt-8 space-y-5 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5">
+                          <li className="flex items-start lg:col-span-1">
+                            <div className="flex-shrink-0">
                               <CheckCircleIcon className="h-5 w-5 text-green-400" aria-hidden="true" />
                             </div>
-                            <p class="ml-3 text-sm text-gray-700">Private forum access</p>
+                            <p className="ml-3 text-sm text-gray-700">Private forum access</p>
                           </li>
 
-                          <li class="flex items-start lg:col-span-1">
-                            <div class="flex-shrink-0">
+                          <li className="flex items-start lg:col-span-1">
+                            <div className="flex-shrink-0">
                               <CheckCircleIcon className="h-5 w-5 text-green-400" aria-hidden="true" />
                             </div>
-                            <p class="ml-3 text-sm text-gray-700">Member resources</p>
+                            <p className="ml-3 text-sm text-gray-700">Member resources</p>
                           </li>
 
-                          <li class="flex items-start lg:col-span-1">
-                            <div class="flex-shrink-0">
+                          <li className="flex items-start lg:col-span-1">
+                            <div className="flex-shrink-0">
                               <CheckCircleIcon className="h-5 w-5 text-green-400" aria-hidden="true" />
                             </div>
-                            <p class="ml-3 text-sm text-gray-700">Entry to annual conference</p>
+                            <p className="ml-3 text-sm text-gray-700">Entry to annual conference</p>
                           </li>
 
-                          <li class="flex items-start lg:col-span-1">
-                            <div class="flex-shrink-0">
+                          <li className="flex items-start lg:col-span-1">
+                            <div className="flex-shrink-0">
                               <CheckCircleIcon className="h-5 w-5 text-green-400" aria-hidden="true" />
                             </div>
-                            <p class="ml-3 text-sm text-gray-700">Official member t-shirt</p>
+                            <p className="ml-3 text-sm text-gray-700">Official member t-shirt</p>
                           </li>
                         </ul>
                       </div>
                     </div>
-                    <div class="py-8 px-6 text-center bg-gray-50 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
+                    <div className="py-8 px-6 text-center bg-gray-50 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
                       <div className="lg:place-self-center">
-                      <p class="text-lg leading-6 font-semibold text-mygreen-500">Pricing Monthly</p>
-                      <div class="mt-4 flex items-center justify-center text-5xl tracking-tight font-bold text-orange-700">
+                      <p className="text-lg leading-6 font-semibold text-mygreen-500">Pricing Monthly</p>
+                      <div className="mt-4 flex items-center justify-center text-5xl tracking-tight font-bold text-orange-700">
                        <span> $349 </span>
-                        <span class="ml-3 text-xl font-medium text-orange-600 tracking-normal"> USD </span>
+                        <span className="ml-3 text-xl font-medium text-orange-600 tracking-normal"> USD </span>
                       </div>
-                      <p class="mt-4 text-sm">
-                        <a href="#" class="font-medium text-gray-400 underline"> Learn about our membership policy </a>
+                      <p className="mt-4 text-sm">
+                        <a href="#" className="font-medium text-gray-400 underline"> Learn about our membership policy </a>
                       </p>
                       </div>
                     </div>

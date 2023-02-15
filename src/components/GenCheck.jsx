@@ -24,7 +24,7 @@ function classNames(...classes) {
 
 function Circle0 (){
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-0" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-circle-0" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" strokeLinejoin="round">
       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
       <path d="M12 8a2 2 0 0 1 2 2v4a2 2 0 1 1 -4 0v-4a2 2 0 0 1 2 -2z"></path>
       <circle cx="12" cy="12" r="9"></circle>
@@ -33,7 +33,7 @@ function Circle0 (){
 }
 function Circle1 (){
   return (
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-1" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-circle-1" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <path d="M12 16v-8l-2 2"></path>
    <circle cx="12" cy="12" r="9"></circle>
@@ -42,7 +42,7 @@ function Circle1 (){
 }
 function Circle2 (){
   return (
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-circle-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <path d="M10 10a2 2 0 1 1 4 0c0 .591 -.417 1.318 -.816 1.858l-3.184 4.143l4 0"></path>
    <circle cx="12" cy="12" r="9"></circle>
@@ -51,7 +51,7 @@ function Circle2 (){
 }
 function Circle3 (){
   return (
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-3" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-circle-3" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <path d="M12 12a2 2 0 1 0 -2 -2"></path>
    <path d="M10 14a2 2 0 1 0 2 -2"></path>
@@ -61,7 +61,7 @@ function Circle3 (){
 }
 function Circle4 (){
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-4" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-circle-4" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" strokeLinejoin="round">
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
     <path d="M13 16v-8l-4 6h5"></path>
     <circle cx="12" cy="12" r="9"></circle>
@@ -70,7 +70,7 @@ function Circle4 (){
 }
 function Circle5 (){
   return (
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-5" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-circle-5" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <path d="M10 16h2a2 2 0 1 0 0 -4h-2v-4h4"></path>
    <circle cx="12" cy="12" r="9"></circle>
@@ -79,7 +79,7 @@ function Circle5 (){
 }
 function Circle6 (){
   return (
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-6" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-circle-6" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <circle cx="12" cy="14" r="2"></circle>
    <path d="M14 10a2 2 0 1 0 -4 0v4"></path>
@@ -89,7 +89,7 @@ function Circle6 (){
 }
 function Circle7 (){
   return (
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-7" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-circle-7" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <path d="M10 8h4l-2 8"></path>
    <circle cx="12" cy="12" r="9"></circle>
@@ -98,7 +98,7 @@ function Circle7 (){
 }
 function Circle8 (){
   return (
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-8" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-circle-8" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <circle cx="12" cy="10" r="2"></circle>
    <circle cx="12" cy="14" r="2"></circle>
@@ -108,7 +108,7 @@ function Circle8 (){
 }
 function Circle9 (){
   return (
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-9" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-circle-9" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" strokeLinejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <circle cx="12" cy="10" r="2"></circle>
    <path d="M10 14a2 2 0 1 0 4 0v-4"></path>
@@ -299,7 +299,7 @@ export function GenCheck() {
                   <dt className="text-lg">
                     <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-400">
                       <span className="font-medium text-gray-900">
-                        <h3 class="text-base font-bold text-orange-500 sm:tracking-tight px-4">
+                        <h3 className="text-base font-bold text-orange-500 sm:tracking-tight px-4">
                           <PencilAltIcon className="h-6 w-6 text-mygreen-500" aria-hidden="true" />
                           <span className="ml-2">
                             Extensions? <span className="ml-4 text-green-700 font-base">Click here to select</span>

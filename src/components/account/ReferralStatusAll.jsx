@@ -16,7 +16,7 @@ export function ReferralStatusAll() {
       <div className="flex flex-col">
         <div>
           <div className="align-middle min-w-full space-x-2 overflow-hidden sm:overflow-visible">
-          <h3 class="text-xl font-semibold text-orange-500 sm:tracking-tight mt-4 p-4"><CurrencyDollarIcon className="h-6 w-6 text-mygreen-500" aria-hidden="true" /> <span>Payouts</span></h3>
+          <h3 className="text-xl font-semibold text-orange-500 sm:tracking-tight mt-4 p-4"><CurrencyDollarIcon className="h-6 w-6 text-mygreen-500" aria-hidden="true" /> <span>Payouts</span></h3>
             <div className=" shadow 2xl:max-w-screen-2xl sm:mx-auto">
               <div className="sticky top-0 z-10 min-w-full divide-y divide-gray-500 border-collapse text-center flex bg-mygray-500">
                 <div className="py-2 text-sm font-semibold text-gray-300 border border-gray-500 w-10-50 w-3-10">
@@ -97,7 +97,7 @@ export function ReferralStatusAll() {
             <option value="12">12</option>
           </select>
 
-          <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gray-300 hover:bg-gray-500">Goto</button>
+          <button type="submit" className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gray-300 hover:bg-gray-500">Goto</button>
         </div>
       </form>
       </div>

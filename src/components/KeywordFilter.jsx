@@ -16,7 +16,7 @@ export  function KeywordFilter() {
   const [selected, setSelected] = useState(people[0])
   return (
     <>
-      <legend class="mb-2 block text-sm font-semibold text-gray-500">
+      <legend className="mb-2 block text-sm font-semibold text-gray-500">
         <KeyIcon
           className="mr-2 h-4 w-4 text-gray-400"
           aria-hidden="true"

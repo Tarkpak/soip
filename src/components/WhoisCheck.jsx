@@ -16,7 +16,7 @@
 */
 import Link from 'next/link'
 
-export function WhoisCheck() {
+export function WhoisCheck({ setSingle }) {
   return (
     <div>
       <div className="relative sm:pb-6">
@@ -28,12 +28,12 @@ export function WhoisCheck() {
             </div>
             <div className="relative">
               <div className="text-center">
-                <p className="mx-auto max-w-2xl text-lg text-gray-300 font-medium">
+                {/* <p className="mx-auto max-w-2xl text-lg text-gray-300 font-medium">
                   <Link href="/bulkwhois" className="underline text-sm  hover:text-red-300 text-base" >Bulk Whois Lookup</Link>
-                </p>
+                </p> */}
               </div>
               <form action="#" className="my-6 sm:mx-auto  sm:flex">
-                <div className="flex-1">
+                <div className="flex-1 relative">
                   <label htmlFor="cta-text" className="sr-only">
                     Enter a domain name
                   </label>
@@ -43,6 +43,7 @@ export function WhoisCheck() {
                     className="block w-full border border-transparent rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2  focus:ring-offset-gray-200 sm:text-center"
                     placeholder="Enter a domain name,e.g. namecost.com"
                   />
+                  <div className="absolute cursor-pointer hover:underline top-1/2 transform -translate-y-1/2 right-4 font-bold text-red-500" onClick={() => { setSingle(false) }} >Bulk Whois</div>
                 </div>
                 <div className="mt-4 sm:mt-0 sm:ml-3">
                   <button
@@ -52,7 +53,6 @@ export function WhoisCheck() {
                     Search
                   </button>
                 </div>
-                
               </form>
             </div>
           </div>
