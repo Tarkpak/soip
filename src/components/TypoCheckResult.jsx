@@ -1,13 +1,13 @@
 /* This example requires Tailwind CSS v2.0+ */
 import {
-  SelectorIcon,
   CheckCircleIcon,
-  AtSymbolIcon,
   QuestionMarkCircleIcon,
-  DocumentDownloadIcon,
-  ClipboardCheckIcon,
+  SelectorIcon,
 } from '@heroicons/react/solid'
 import { NoResults } from '@/components/NoResults'
+import { DownOrCopy } from '@/components/DownOrCopy'
+import { ToolInput } from '@/components/ToolInput'
+import { ToolExcelMenu } from '@/components/ToolExcelMenu'
 
 {/* 
 
@@ -15,6 +15,17 @@ import { NoResults } from '@/components/NoResults'
 const people = []
 
 */}
+
+function CanbeReg (){
+  return (
+    <CheckCircleIcon className="h-5 w-5" aria-hidden="true" />
+  )
+}
+function SelectOrNot (){
+  return (
+    <SelectorIcon className="h-5 w-5" aria-hidden="true" />
+  )
+}
 
 const people = [
   {id: '1', name: 'abcdefghijklmnopqrstuvwxyz.com',typotype:9,rankno:582220, okreg: '', registrar: 'Godaddy1998-08-08Godaddy1998-', timereg: '1998-08-081998-08-08', timeend: '2028-08-08',status:'ok1998-08-081998-08-081998-08-08',nameserver:'ns1.bodis.com;ns2.bodis.com1998-08-08',delorredemp:'d' ,parkorbuy:'p'},
@@ -42,126 +53,24 @@ const IsResults = () => {
       <div className="md:mb-12">
         <div className="mt-8 flex flex-col ">
           <div>
-          <div className="pb-2 min-w-full">
-            <div className="px-8 text-right sm:mx-auto w-screen 2xl:max-w-screen-2xl text-gray-400">
-              <span className="pr-8" title="Export selected domains,include all results">
-                <button>
-                  <DocumentDownloadIcon className="h-6 w-6 hover:text-gray-500" aria-hidden="true" />
-                </button>
-              </span>
-              <span className="" title="Copy all selected domains">
-                <button>
-                  <ClipboardCheckIcon className="h-6 w-6 hover:text-gray-500" aria-hidden="true" />
-                </button>
-              </span>
-            </div>
-          </div>
+          <DownOrCopy />
             <div className="min-w-full space-x-2 overflow-hidden py-2 align-middle sm:flex sm:overflow-visible">
               <div className="w-screen shadow sm:mx-auto 2xl:max-w-screen-2xl">
                 <div className="sticky top-0 z-10 flex min-w-full border-collapse rounded-t-lg bg-gray-500 text-center">
-                  <div className="w-2-50 w-1-10  py-3.5 text-oksm font-semibold text-gray-300">
-                    <input
-                      id='cb-select-all-1'
-                      type='checkbox'
-                      className='text-mygreen-500 h-4 w-4 rounded border-gray-300 focus:outline-none focus:ring-0 focus:ring-white focus:ring-offset-0 focus:ring-offset-white'
-                    />
-                  </div>
-                  <div className="w-2-50 hidden md:block py-3.5 text-oksm  font-semibold text-gray-300">
-                    <span className="group inline-flex">
-                      Id
-                      <span className="hidden flex-none rounded text-gray-400 lg:block">
-                        <SelectorIcon className="h-5 w-5" aria-hidden="true" />
-                      </span>
-                    </span>
-                  </div>
-                  <div className="w-7-50 w-3-10 border border-gray-500 py-3.5 text-oksm font-semibold text-gray-300">
-                    <span className="group inline-flex">
-                      Domain
-                      <span className="hidden flex-none rounded text-gray-400 lg:block">
-                        <SelectorIcon className="h-5 w-5" aria-hidden="true" />
-                      </span>
-                    </span>
-                  </div>
-                  <div className="w-2-50  w-1-10 border border-gray-500 py-3.5 text-oksm font-semibold text-gray-300">
-                    <span className="group inline-flex" title="Typo domain's type: 0-9">
-                      Type
-                      <span className="hidden flex-none rounded text-gray-400 lg:block">
-                        <SelectorIcon className="h-5 w-5" aria-hidden="true" />
-                      </span>
-                    </span>
-                  </div>
-                  <div className="w-2-50 w-1-10 border border-gray-500 py-3.5 text-oksm font-semibold text-gray-300">
-                    <span className="group inline-flex" title="Domain status: available, registered, unknow">
-                      <span className="flex-none rounded text-green-500">
-                        <CheckCircleIcon
-                          className="h-5 w-5"
-                          aria-hidden="true"
-                        />
-                      </span>
-                      <span className="hidden flex-none rounded text-gray-400 lg:block">
-                        <SelectorIcon className="h-5 w-5" aria-hidden="true" />
-                      </span>
-                    </span>
-                  </div>
-                  <div className="w-2-50 w-1-10 border border-gray-500 py-3.5 text-oksm font-semibold text-gray-300">
-                    <span className="group inline-flex" title="Domain status: Pending delete">
-                      Del
-                      <span className="hidden flex-none rounded text-gray-400 lg:block">
-                        <SelectorIcon className="h-5 w-5" aria-hidden="true" />
-                      </span>
-                    </span>
-                  </div>
-                  <div className="w-2-50 w-1-10 py-3.5 text-oksm font-semibold text-gray-300">
-                    <span className="group inline-flex" title="Domain nameserver: parking or selling">
-                      Park
-                      <span className="hidden flex-none rounded text-gray-400 lg:block">
-                        <SelectorIcon className="h-5 w-5" aria-hidden="true" />
-                      </span>
-                    </span>
-                  </div>
-                  <div className="w-8-50 hidden border border-gray-500 py-3.5 text-oksm font-semibold text-gray-300 md:block">
-                    <span className="group inline-flex">
-                      Registrar
-                      <span className="hidden flex-none rounded text-gray-400 lg:block">
-                        <SelectorIcon className="h-5 w-5" aria-hidden="true" />
-                      </span>
-                    </span>
-                  </div>
-                  <div className="w-6-50 w-2-10 sm:border sm:border-gray-500 py-3.5 text-oksm font-semibold text-gray-300">
-                    <span className="group inline-flex">
-                      Time-Reg
-                      <span className="hidden flex-none rounded text-gray-400 lg:block">
-                        <SelectorIcon className="h-5 w-5" aria-hidden="true" />
-                      </span>
-                    </span>
-                  </div>
-                  <div className="w-6-50 hidden border border-gray-500 py-3.5 text-oksm font-semibold text-gray-300 md:block">
-                    <span className="group inline-flex">
-                      Time-End
-                      <span className="hidden flex-none rounded text-gray-400 lg:block">
-                        <SelectorIcon className="h-5 w-5" aria-hidden="true" />
-                      </span>
-                    </span>
-                  </div>
-                  <div className="w-6-50 hidden border border-gray-500 py-3.5 text-oksm font-semibold text-gray-300 md:block">
-                    <span className="group inline-flex">
-                      Status
-                      <span className="hidden flex-none rounded text-gray-400 lg:block">
-                        <SelectorIcon className="h-5 w-5" aria-hidden="true" />
-                      </span>
-                    </span>
-                  </div>
-                  <div className="w-7-50 hidden py-3.5 text-oksm font-semibold text-gray-300 md:block">
-                    <span className="group inline-flex">
-                      NameServer
-                      <span className="hidden flex-none rounded text-gray-400 lg:block">
-                        <SelectorIcon className="h-5 w-5" aria-hidden="true" />
-                      </span>
-                    </span>
-                  </div>
+                  <ToolInput className=" w-2-50 w-1-10" />
+                  <ToolExcelMenu className="w-2-50 hidden md:block" title="Id" selectornot={SelectOrNot ()} />
+                  <ToolExcelMenu className="w-7-50 w-3-10" title="Domain" selectornot={SelectOrNot ()} />
+                  <ToolExcelMenu className="w-2-50  w-1-10" title="Type" selectornot={SelectOrNot ()} />
+                  <ToolExcelMenu className="w-2-50 w-1-10" title={CanbeReg ()} />
+                  <ToolExcelMenu className="w-2-50 w-1-10" title="Del" selectornot={SelectOrNot ()} />
+                  <ToolExcelMenu className="w-2-50 w-1-10" title="Park" selectornot={SelectOrNot ()} />
+                  <ToolExcelMenu className="w-8-50 hidden md:block" title="Registrar" selectornot={SelectOrNot ()} />
+                  <ToolExcelMenu className="w-5-50 w-2-10" title="Time-Reg" selectornot={SelectOrNot ()} />
+                  <ToolExcelMenu className="w-5-50 hidden md:block" title="Time-End" selectornot={SelectOrNot ()} />
+                  <ToolExcelMenu className="w-6-50 hidden md:block" title="Status" selectornot={SelectOrNot ()} />
+                  <ToolExcelMenu className="w-7-50 hidden md:block" title="NameServer" selectornot={SelectOrNot ()} />
                 </div>
                 
-
                 <div className="bg-white">
                   {people.map((person,personIdx) => (
                     <div
@@ -176,15 +85,9 @@ const IsResults = () => {
                           className='text-mygreen-500 h-4 w-4 rounded border-gray-300 focus:outline-none focus:ring-0 focus:ring-white focus:ring-offset-0 focus:ring-offset-white'
                         />
                       </div>
-                      <div className="w-2-50 hidden md:block whitespace-nowrap border border-gray-200 py-3 text-oksm font-medium text-gray-500">
-                        {person.id}
-                      </div>
-                      <div className="w-7-50 w-3-10 truncate whitespace-nowrap border border-gray-200 py-3 text-left text-oksm font-medium text-blue-500 sm:pl-4" title={person.name}>
-                        {person.name}
-                      </div>
-                      <div className="w-2-50 w-1-10 whitespace-nowrap border border-gray-200 py-3 text-oksm text-gray-500">
-                        {person.typotype}
-                      </div>
+                      <div className="w-2-50 hidden md:block whitespace-nowrap border border-gray-200 py-3 text-oksm font-medium text-gray-500">{person.id}</div>
+                      <div className="w-7-50 w-3-10 truncate whitespace-nowrap border border-gray-200 py-3 text-left text-oksm font-medium text-blue-500 sm:pl-4" title={person.name}>{person.name}</div>
+                      <div className="w-2-50 w-1-10 whitespace-nowrap border border-gray-200 py-3 text-oksm text-gray-500">{person.typotype}</div>
                       <div className="w-2-50 w-1-10 flex items-center justify-center whitespace-nowrap border border-gray-200 py-3 text-oksm uppercase">
                         {person.okreg == 'available' ? (
                           <span className="h-5 w-5 rounded-full font-bold  text-green-400">
@@ -230,21 +133,11 @@ const IsResults = () => {
                           {person.parkorbuy}
                         </span>
                       </div>
-                      <div className="w-8-50 hidden truncate whitespace-nowrap border border-gray-200 py-3 pl-4 text-left text-oksm text-gray-500 md:block" titile={person.registrar}>
-                        {person.registrar}
-                      </div>
-                      <div className="w-5-50 w-2-10 truncate whitespace-nowrap border border-gray-200 py-3 text-oksm text-gray-500">
-                        {person.timereg}
-                      </div>
-                      <div className="w-5-50 hidden truncate whitespace-nowrap border border-gray-200 py-3 text-oksm text-gray-500 md:block">
-                        {person.timeend}
-                      </div>
-                      <div className="w-6-50 hidden truncate whitespace-nowrap border border-gray-200 py-3 pl-4 text-oksm text-gray-500 md:block" title={person.status}>
-                        {person.status}
-                      </div>
-                      <div className="w-7-50 hidden truncate whitespace-nowrap border-t border-b border-l border-gray-200 py-3 pl-4 text-left text-oksm text-gray-500 md:block" title={person.nameserver}>
-                        {person.nameserver}
-                      </div>
+                      <div className="w-8-50 hidden truncate whitespace-nowrap border border-gray-200 py-3 pl-4 text-left text-oksm text-gray-500 md:block" titile={person.registrar}>{person.registrar}</div>
+                      <div className="w-5-50 w-2-10 truncate whitespace-nowrap border border-gray-200 py-3 text-oksm text-gray-500">{person.timereg}</div>
+                      <div className="w-5-50 hidden truncate whitespace-nowrap border border-gray-200 py-3 text-oksm text-gray-500 md:block">{person.timeend}</div>
+                      <div className="w-6-50 hidden truncate whitespace-nowrap border border-gray-200 py-3 pl-4 text-oksm text-gray-500 md:block" title={person.status}>{person.status}</div>
+                      <div className="w-7-50 hidden truncate whitespace-nowrap border-t border-b border-l border-gray-200 py-3 pl-4 text-left text-oksm text-gray-500 md:block" title={person.nameserver}>{person.nameserver}</div>
                     </div>
                   ))}
                 </div>

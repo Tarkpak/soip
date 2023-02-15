@@ -1,10 +1,9 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { useState } from 'react'
-import { Tab } from '@headlessui/react'
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
+
+import { BannerWords } from '@/components/BannerWords'
+import { MyTypeSelect } from '@/components/MyTypeSelect'
+
 const aucdoms = [
 {id: '1', name: 'abcdefghijklmnopqrstuvwxyz.com', platform:'godaddy',golink:'https://www.usa',da: 10, backlink: 12345678901,  years: 18,askbid:'3,025', strvalue:'1,135', aby:1987, rank:1000,dropdate:'08-08-2022'},
 {id: '11', name: 'abcdefghijklmnopqrstuvwxyz.com', platform:'godaddy',golink:'https://www.usa', da: 100, backlink: 12345678901,  years: 18,askbid:'2,025', strvalue:'2,135', aby:1987, rank:1000,dropdate:'08-08-2022'},
@@ -497,52 +496,15 @@ export function HomesData() {
             <div className="px-2 mb-8 sm:px-0">
               <div className="">
                 <div className="text-gray-500">
-                <div className="mx-auto text-base text-blue-green font-medium mb-6">
-                  <div className="bg-maincolor p-4 flex grid grid-cols-6">
-                    <div className="mx-auto place-self-center">
-                      <AuctionIcons />
-                    </div>
-                    <div className="col-span-4 lg:px-10">
-                      <p className="font-bold text-md md:text-xl xl:text-2xl">Get the best valued domains with our best free datas</p>
-                      <p className="hidden lg:block">Catch and bid on expired domains anywhere, anytime.</p>
-                    </div>
-                    <div className="mx-auto place-self-center">
-                      <CatchIcons />
-                    </div>
-                  </div> 
-                </div>
-                <Tab.Group>
-                  <Tab.List className="flex space-x-1 rounded-lg bg-maincolor p-1">
-                    {Typeselect.map((category, idx) => (
-                      <Tab
-                        key={idx}
-                        className={({ selected }) =>
-                          classNames(
-                            'w-full rounded-lg py-2.5 text-sm font-semibold leading-5 text-gray-700',
-                            '',
-                          selected
-                            ? 'bg-white shadow text-green-700'
-                            : 'text-gray-500 hover:bg-white/[0.12] hover:text-gray-600'
-                          )
-                        }
-                      >
-                        {category.label}
-                      </Tab>
-                   ))}
-                  </Tab.List>
-                  <Tab.Panels className="mt-2">
-                    {Typeselect.map((post, idx) => (
-                      <Tab.Panel
-                        key={idx}
-                        className='rounded-xl bg-white py-3 px-2'>
-                          {post.content}
-                      </Tab.Panel>
-                    ))}
-                  </Tab.Panels>
-                </Tab.Group>
+                  
+                <BannerWords 
+                    wt={'Get the best valued domains with our best free datas'} 
+                    wb={'Catch and bid on expired domains anywhere, anytime.'} 
+                    iconl={<AuctionIcons />} 
+                    iconr={<CatchIcons />}
+                   />
 
-
-
+                <MyTypeSelect filters={Typeselect} />
 
                 </div>
               </div>

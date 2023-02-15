@@ -40,7 +40,6 @@ const datas = [
 const monitors = [
   {name: 'Domain Monitor', href: '/domainmonitor', icon: OlderOpenIcon },
   {name: 'Brand Monitor', href: '/brandmonitor', icon: LockOpenIcon},
-  {name: 'Phish Lab', href: '/phishlab', icon: MailIcon},
   {name: 'Domains Coupons', href: '/domainsprice', icon: MailIcon},
 ]
 const resources = [
